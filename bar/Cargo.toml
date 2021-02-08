@@ -1,0 +1,8 @@
+[package]
+name = "bar"
+version = "0.1.0"
+authors = ["Jonas Platte <jplatte+git@posteo.de>"]
+edition = "2018"
+
+[dependencies]
+baz = { path = "../baz" }

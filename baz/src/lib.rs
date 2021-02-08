@@ -1,0 +1,2 @@
+/// baz
+pub struct Type;
