@@ -1,11 +1,10 @@
 [workspace]
-members = ["bar", "baz"]
+members = ["mycrate-impl", "mymacro"]
 
 [package]
-name = "foo"
+name = "mycrate"
 version = "0.1.0"
-authors = ["Jonas Platte <jplatte+git@posteo.de>"]
-edition = "2018"
+edition = "2021"
 
 [dependencies]
-bar = { path = "./bar" }
+mycrate-impl = { version = "0.1.0", path = "mycrate-impl" }

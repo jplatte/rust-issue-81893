@@ -1,2 +1,1 @@
-/// foo
-pub use bar::Type;
+pub use mycrate_impl::do_stuff;
